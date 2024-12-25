@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formation Pro - Accueil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav-main">
+        <div class="nav-content">
+            <div class="logo">
+                <img src="logo.png" alt="Logo Formation Pro">
+                <span>Formation Pro</span>
+            </div>
+            
+            <div class="nav-links">
+                <a href="#accueil" class="nav-link">Accueil</a>
+                <a href="#formations" class="nav-link">Formations</a>
+                <a href="#galerie" class="nav-link">Galerie</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button class="button-primary">Inscription</button>
+            </div>
+
+            <button class="menu-mobile">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Formation Professionnelle</h1>
+            <p>Des formations de qualité pour développer vos compétences et accélérer votre carrière.</p>
+            <button class="button-primary">Découvrir nos formations</button>
+        </div>
+    </section>
+
+    <!-- Galerie Section -->
+    <section id="galerie" class="gallery">
+        <h2>Notre environnement</h2>
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="image1.jpg" alt="Formation 1">
+            </div>
+            <button class="carousel-button prev">←</button>
+            <button class="carousel-button next">→</button>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contactez-nous</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="icon-mail"></i>
+                    <span>contact@formation-pro.fr</span>
+                </div>
+                <div class="info-item">
+                    <i class="icon-phone"></i>
+                    <span>+33 1 23 45 67 89</span>
+                </div>
+                <div class="info-item">
+                    <i class="icon-location"></i>
+                    <span>123 Avenue de la Formation, 75000 Paris</span>
+                </div>
+            </div>
+            <form class="contact-form">
+                <input type="text" class="form-input" placeholder="Nom complet">
+                <input type="email" class="form-input" placeholder="Email">
+                <textarea class="form-input" placeholder="Message" rows="4"></textarea>
+                <button type="submit" class="button-primary">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <button class="back-to-top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
